@@ -3,9 +3,9 @@ import dotenv from 'dotenv'
 
 dotenv.config();
 
-const bspSharedKey = '2e1f6f77e9674006838270fcb95477f7';
-const bspOrganization = 'test-drive-890477f1b75e491b910d3';
-const bspSecretKey = process.env.BSP_SECRET_KEY;
+const bspSharedKey; //removed key, but can assign new key here
+const bspOrganization; //removed key, but can assign new key here
+const bspSecretKey; //removed key, but can assign new key here
 
 const signableContent = function(path, method) {
     const params = [

@@ -97,7 +97,7 @@ curl --location --request PUT 'https://api.ncr.com/catalog/v2/item-attributes/ne
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'Accept-Language: en-us' \
---header 'Authorization: AccessKey 2e1f6f77e9674006838270fcb95477f7:+icdgYg07Z3E4l7ZxbhFMl0ZXoGGyJl2ZnzNbfjWiMzrOF6O/rC/cESH8LGS7IOMAHsUgnGhKr2PauUJ3T3Zwg==' \
+--header 'Authorization: AccessKey' \ //removed access key
 --header 'nep-organization: test-drive-890477f1b75e491b910d3' \
 --header 'Date: Sat, 23 Oct 2021 18:10:06 GMT' \
 --header 'nep-enterprise-unit: 99542b3de23a4af6a7361c2075769813' \
