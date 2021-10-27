@@ -5,7 +5,7 @@ The goal is to update be able to set `broken` to `true` for any product in the c
 ```curl
 curl --location --request PUT 'https://api.ncr.com/catalog/v2/items/newId5' \
 --header 'Content-Type: application/json' \
---header 'Authorization: AccessKey 2e1f6f77e9674006838270fcb95477f7:+icdgYg07Z3E4l7ZxbhFMl0ZXoGGyJl2ZnzNbfjWiMzrOF6O/rC/cESH8LGS7IOMAHsUgnGhKr2PauUJ3T3Zwg==' \
+--header 'Authorization: AccessKey ' \
 --header 'nep-organization: test-drive-890477f1b75e491b910d3' \
 --header 'Date: Sat, 23 Oct 2021 18:10:06 GMT' \
 --header 'Accept: application/json' \
